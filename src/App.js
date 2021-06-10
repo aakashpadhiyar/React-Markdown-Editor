@@ -1,10 +1,10 @@
 import { useState } from "react";
 import ReactMarkdown from "react-markdown";
-import marked from "marked";
+// import marked from "marked";
 import "./styles.css";
 
 export default function App() {
-  const [markdown, setMarkdown] = useState("# sup");
+  const [markdown, setMarkdown] = useState("here...");
 
   function handleChange(e) {
     setMarkdown(e.target.value);
